@@ -10,7 +10,9 @@ public class Streams9 {
   //Streams got a couple of additions, in the form of takeWhile,dropWhile,iterate methods.
   Stream<String> stream = Stream.iterate("", s -> s + "s")
       .takeWhile(s -> s.length() < 10);
-    
   stream.forEach(System.out::println);  
+
+  //TODO: Add a sample for dropWhile
+    
   }
 }
