@@ -3,7 +3,7 @@ package com.iaditya;
 import java.util.Arrays;
 import java.util.List;
 
-public class CollectionsStreams {
+public class CollectionsStreams8 {
 
   public static void main(String... args) {
     System.out.println("Collections and Streams");
