@@ -5,6 +5,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.Map;
 
+/**
+* Collection creation using Collection.of() in Java 9-13
+*/
 public class CollectionOf9 {
 
   public static void main(String... args) {
