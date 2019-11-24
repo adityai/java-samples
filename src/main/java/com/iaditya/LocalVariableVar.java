@@ -1,5 +1,8 @@
 package com.iaditya;
 
+/**
+* Local variable var in Java 10-13
+*/
 public class LocalVariableVar {
   
   public static void main(String... args) {
