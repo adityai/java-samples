@@ -1,6 +1,6 @@
 package com.iaditya;
 
-public class RunnableSampleOld {
+public class RunnableSample {
 
   public static void main(String... args) {
     System.out.println("Test");
@@ -11,6 +11,9 @@ public class RunnableSampleOld {
            }
          };
     runnable.run();
+    
+    Runnable runnableLambda = () -> System.out.println("Hello world lambda!");
+    runnableLambda.run();
 
   }
 
