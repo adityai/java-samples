@@ -12,7 +12,7 @@ public class Streams9 {
       .takeWhile(s -> s.length() < 10);
   stream.forEach(System.out::println);  
 
-  //TODO: Add a sample for dropWhile
+  //TODO: Add a sample for dropWhile - https://docs.oracle.com/javase/9/docs/api/?java/util/stream/Stream.html
     
   }
 }
